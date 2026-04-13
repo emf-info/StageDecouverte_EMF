@@ -38,7 +38,7 @@ Bienvenue dans cet atelier où tu apprendras à utiliser un mini-ordinateur, le 
 |----|----|----|
 |![Câble Phidget HUB](consigne_ressources/3017_1.jpg) |![Carte micro SD (stockage)](consigne_ressources/e332550d-d71c-480d-9036-51bd7d6e0304.png) |![Câble HDMI (vidéo)](consigne_ressources/hdmi_cable.jpg) |
 
-|Phidget thumbstick (joystick) |Phidget son |Phidget lumière |
+|Phidget thumbstick (manette) |Phidget son |Phidget lumière |
 |----|----|----|
 |![Phidget thumbstick (joystick)](consigne_ressources/b71f1cde-405a-435f-b8e9-455dee8d2491.png) |![Phidget son](consigne_ressources/image%203.png) |![Phidget lumière](consigne_ressources/image%204.png) |
 
@@ -236,7 +236,7 @@ Tu finalises ton installation afin de faire fonctionner le jeu correctement. Tu 
 
 ### 5.1. Préparation de la manette (sur le Raspberry Pi)
 
-Tu as besoin d’une manette pour jouer.
+Tu as besoin d’une manette pour jouer. Branche le hub Phidget sur le Raspberry avec le câble USB blanc. Puis, branche la manette (Thumbstick) sur le hub. 
 
 - Ouvre le terminal de commandes linux
 
@@ -272,7 +272,7 @@ Ce genre de script est utilisé pour gagner du temps lors de tâches répétitiv
 Dans notre cas, il met en place les différents systèmes qui permettront de jouer à snake !
 ### 5.2. Mise en place de l’affichage
 
-Maintenant, ta manette est prête. Tu prépares l’affichage de ton jeu depuis ton poste de travail. Tu as besoin de quelques fichiers et tu fais les ajustements suivants.
+Maintenant, ta manette est prête. Tu prépares l’affichage de ton jeu depuis ton Rasperry Pi. Tu as besoin de quelques fichiers et tu fais les ajustements suivants.
 
 - Télécharge les fichiers qui permettent d’afficher ton jeu [ici](https://github.com/emf-info/StageDecouverte/raw/refs/heads/main/Stage%20d%C3%A9couverte.zip).
 - Clique avec le bouton droit de la souris sur le fichier téléchargé et sélectionne la fonctionnalité  “Extraire tout”. Il s’agit d’un fichier compressé.
@@ -418,7 +418,7 @@ Et finalement, il y a deux boutons qui permettent de lancer et de stopper le pro
     
     ![image.png](consigne_ressources/image%2017.png)
     
-1. **Challenge 2 : Mouvements avec le joystick**
+1. **Challenge 2 : Mouvements avec la manette**
     
     Utilise le capteur **thumbstick** pour déplacer le poisson horizontalement et verticalement.
     
